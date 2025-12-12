@@ -1,0 +1,61 @@
+
+        /* Custom styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .text-gray-400 {
+            color: #9ca3af;
+        }
+
+        .hover\:text-\[\#DBA422\]:hover {
+            color: #DBA422;
+        }
+
+        .hover\:bg-\[\#DBA422\]:hover {
+            background-color: #DBA422;
+        }
+
+        .hover\:shadow-lg:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        .hover\:shadow-\[\#DBA422\]\/20:hover {
+            box-shadow: 0 10px 15px -3px rgba(212, 168, 34, 0.2), 0 4px 6px -2px rgba(212, 168, 34, 0.1);
+        }
+
+        .hover\:bg-\[\#2a2a3e\]:hover {
+            background-color: #2a2a3e;
+        }
+
+        .focus\:outline-none:focus {
+            outline: none;
+        }
+
+        .focus\:ring-2:focus {
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+        }
+
+        .grayscale {
+            filter: grayscale(100%);
+        }
+
+        .hover\:grayscale-0:hover {
+            filter: grayscale(0%);
+        }
+
+        .transition-all {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 300ms;
+        }
+
+        .transition-colors {
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 300ms;
+        }
+
+        .duration-300 {
+            transition-duration: 300ms;
+        }
